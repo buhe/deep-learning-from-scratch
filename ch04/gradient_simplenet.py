@@ -20,8 +20,8 @@ class simpleNet:
 
         return loss
 
-x = np.array([0.6, 0.9])
-t = np.array([0, 0, 1])
+x = np.array([0.6, 0.9]) // 样本
+t = np.array([0, 0, 1]) // 标签
 
 net = simpleNet()
 
